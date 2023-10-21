@@ -144,3 +144,27 @@ footer p {
 .content section p {
     text-align: justify;
 }
+
+@media screen and (max-width: 767px) {
+    header {
+        width: 100%;
+        margin: 0px auto;
+        background-color: brown;
+        height: 125px;
+        padding: 10px 20px;
+        vertical-align: middle;
+    }
+    .myInfo {
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        float: right;
+        font-style: italic;
+        background-color: lightgray;
+    }
+}
